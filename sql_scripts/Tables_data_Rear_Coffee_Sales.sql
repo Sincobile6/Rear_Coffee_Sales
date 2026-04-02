@@ -13,7 +13,7 @@ CustomerID varchar(250),
 First_Name varchar(250),
 Last_Name varchar(250),
 Gender varchar(250),
-City varchar(250),
+City varchar(250)
 
 
 )
@@ -44,7 +44,7 @@ Full_Date date,
 Day int,
 Month int,
 year int,
-Day_Of_Week int,
+Day_Of_Week int
 
 )
 
@@ -85,7 +85,7 @@ ProductID varchar(250),
 Product_Name varchar(250),
 Category varchar(250),
 Size int,
-Price int,
+Price int
 
 
 )
@@ -113,7 +113,7 @@ create table Dim_Payment(
 PaymentID varchar(250),
 Payment_Type varchar(250),
 Provider varchar(250),
-Transaction_Fee int,
+Transaction_Fee int
 
 
 )
@@ -140,7 +140,7 @@ PaymentID varchar(250),
 Quantity int,
 Total_Amount int,
 Discount_Amount int,
-Profit int,
+Profit int
 
 
 )
